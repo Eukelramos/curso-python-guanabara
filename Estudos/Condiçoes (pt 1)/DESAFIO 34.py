@@ -2,10 +2,10 @@
 # Para salários superiores a R$1.250,00, calcule um aumento de 10%.
 # Para os inferiores ou iguais, o aumento é de 15%.
 
-salario = float(input('Qual o seu salario? '))
+salario = float(input('Qual o seu salário atual? '))
 if salario > 1250:
     novo = salario * 1.10
-    print(f'Com o aumento de 10%, seu novo salário é de R${novo:.2f}')
+    print(f'Com o aumento de 10%, seu novo salario é de R${novo:.2f}')
 else:
     novo = salario * 1.15
-print(f'Com o aumento de 15%, seu novo salário é de R${novo:.2f}')
+    print(f'Com o aumento de 15%, seu novo salário é de R${novo:.2f}')
