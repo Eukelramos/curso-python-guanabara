@@ -9,14 +9,15 @@
 
 ps = float(input("informe o seu peso atual: "))
 alt = float(input("informe o seu altura: "))
-imc = ps / alt ** 2
+imc = ps / (alt ** 2)
+print(f"O IMC dessa pessoa é de {imc:.1f}")
 if imc < 18.5:
-    print ("Você esta abaixo do peso normal")
+    print ("Você está abaixo do peso normal")
 elif 18.5 <= imc < 25:
-    print ("Você esta no peso normal")
+    print ("Você está no peso normal")
 elif 25 <= imc < 30:
-    print ("Você esta com sobrepeso")
+    print ("Você está com sobrepeso")
 elif 30 <= imc < 40:
-    print ("Você esta com obesidade")
+    print ("Você está com obesidade")
 else:
-    print ("Você esta com obesidade mórbida")
+    print ("Você está com obesidade mórbida")
